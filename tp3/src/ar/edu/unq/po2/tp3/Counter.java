@@ -26,6 +26,34 @@ public class Counter {
 		return count; 
 	}
 	
+	public int getOddOcurrences(){
+		int count = 0;
+		
+		for (Integer num : numbers) {
+			if (num % 2 != 0) {
+				count ++;
+			}
+		}
+		
+		return count; 
+	}
+	
+	public int getMultiplesOf(int x) {
+		if (x == 0) {
+			return 0; 
+		}
+		
+		int count = 0;
+		
+		for (Integer num : numbers) {
+			if (num % x == 0) {
+				count ++;
+			}
+		}
+		
+		return count; 
+	}
+	
 }
 
 
