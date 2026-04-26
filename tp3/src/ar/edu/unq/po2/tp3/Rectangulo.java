@@ -14,5 +14,21 @@ public class Rectangulo {
 		this.ancho = ancho;
 		this.alto = alto; 		
 	}
+	
+	public int area(){
+		return this.ancho * this.alto; 
+	}
+	
+	public int perimetro() {
+		return 2*(this.ancho + this.alto);
+	}
+	
+	public boolean esHorizontal() {
+		return this.ancho > this.alto;
+	}
+	
+	public boolean esVertical(){
+		return this.alto > this.ancho;
+	}
 }
 
