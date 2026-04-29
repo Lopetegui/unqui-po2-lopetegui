@@ -11,7 +11,7 @@ public class Trabajador {
 		
 	}
 	
-	public void agergarIngreso(Ingreso ingreso) {
+	public void agregarIngreso(Ingreso ingreso) {
 		ingresos.add(ingreso); 
 	}
 	
