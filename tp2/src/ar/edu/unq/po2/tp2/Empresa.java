@@ -18,6 +18,10 @@ public class Empresa {
 		
 	}
 	
+	public ArrayList<ReciboDeHaberes> getRecibos(){
+		return recibos; 
+	}
+	
 	public void agregarEmpleado(Empleado empleado) {
 		empleados.add(empleado); 
 	}
