@@ -21,4 +21,8 @@ public class ProductoCooperativa implements Producto{
 	public void decrementarStock() {
 		this.stock--; 
 	}
+	
+	public int getStock() {
+		return this.stock; 
+	}
 }
