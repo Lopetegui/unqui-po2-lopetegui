@@ -10,7 +10,7 @@ import cajaMercado.ProductoCooperativa;
 import cajaMercado.ProductoTradicional;
 
 
-class cajaTest {
+class CajaTest {
 
 	@Test
 	void testRegistrarProductoTradicional() {

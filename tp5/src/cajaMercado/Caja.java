@@ -10,7 +10,7 @@ public class Caja {
 	
 	public void registrar(Producto producto) {
 		this.total += producto.getPrecio();
-		producto.decrementarStock();
+		producto.registrar();
 	}
 	
 	public double getTotal() {

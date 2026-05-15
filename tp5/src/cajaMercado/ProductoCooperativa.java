@@ -18,7 +18,7 @@ public class ProductoCooperativa implements Producto{
 	}
 	
 	@Override
-	public void decrementarStock() {
+	public void registrar() {
 		this.stock--; 
 	}
 	
